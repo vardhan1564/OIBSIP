@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Starbucks Landing Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header id="header">
+
+    <div class="header-content-div">
+      <a href="#home-sec">
+
+        <img src="images/logo1.png" alt="Company Logo" id="header-img" />
+
+      </a>
+
+
+      <nav id="nav-bar">
+
+        <a href="#home-sec" class="nav-link">HOME</a>
+        <a href="#varieties" class="nav-link">MENU</a>
+        <a href="#about" class="nav-link">ABOUT</a>
+        <a href="#contact" class="nav-link">CONTACT</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <main>
+    <section id="home-sec" class="flexible home-sec">
+      <div class="eye-grabber-img">
+        <br><br><br><br><br><br><br><br><br>
+        <img src=" images/img1.png" alt="Image of coffee" />
+      </div>
+      <div class="eye-grabber">
+        <h1><br><br><br>It's Not Just COFFEE <br> <span class="yellowColor">IT'S STARBUCKS</span></h1>
+
+        <button class="btn" onclick="window.location.href = '#contact';">
+          Order Now
+        </button>
+      </div>
+    </section>
+    <section id="varieties" class="sec-padding">
+      <h3 class="section-heading">MENU</h3>
+      <div class="sec-content-div flexible">
+        <div class="tile">
+          <img src="images/item1.jpg" alt="#" />
+          <h4>Iced Caramel Macchiato</h4>
+          <p>
+            the Iced Caramel Macchiato is a classic for a reason.
+            It's made with espresso, vanilla syrup, milk, and caramel drizzle, and it's the perfect combination of
+            sweet and creamy.
+
+
+          </p>
+          <h4>Price:  $ 6</h4>
+        </div>
+        <div class="tile">
+          <img src="images/item2.jpg" alt="#" />
+          <h4>Espresso</h4>
+          <p>
+            Espresso is a concentrated coffee drink that's made by forcing hot water through finely-ground coffee beans.
+            It's a strong and intense drink that's perfect for those who want a quick caffeine boost.
+
+
+          </p>
+          <h4>Price:  $ 5</h4>
+        </div>
+        <div class="tile">
+          <img src="images/item4.jpg" alt="." />
+          <h4>Frappuccinos</h4>
+          <p>
+            Frappuccinos are blended drinks that are made with coffee, ice, milk, and various syrups and toppings.
+            They're a popular choice for those who want a cold and refreshing drink.
+          </p>
+          <h4>Price:  $ 7</h4>
+
+        </div>
+        <div class="tile">
+          <img src="images/item6.jpg" alt="" />
+          <h4>Chai Latte</h4>
+          <p>
+            The Chai Latte is a warm and spicy drink that's made with chai tea concentrate, steamed milk, and honey.
+          </p>
+          <h4>Price:  $ 9</h4>
+        </div>
+
+
+        <div class="tile">
+          <img src="images/item7.jpg" alt="" />
+          <h4>Mocha</h4>
+          <p>
+            The Mocha is a chocolate lover's dream. It's a
+            rich and decadent drink that's perfect for a sweet treat.
+          </p>
+          <h4>Price:  $ 7</h4>
+        </div>
+        <div class="tile">
+          <img src="images/item8.jpg" alt="" />
+          <h4>Coffee Frappuccino</h4>
+          <p>
+            he Coffee Frappuccino is a classic Frappuccino that's made with coffee,
+            ice, milk, and vanilla syrup. It's a cold and refreshing drink that's perfect for a hot day.
+          </p>
+          <h4>Price:  $ 10</h4>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="sec-padding">
+      <h3 class="section-heading">ABOUT US</h3>
+      <div class="sec-content-div flexible">
+        <p> &nbsp &nbsp &nbsp &nbsp &nbsp We are the world's leading roaster and retailer of specialty coffee, committed
+          to
+          delivering the highest quality coffee and coffee-related experiences to our customers.
+          We are also committed to creating a culture of warmth and belonging, where everyone is welcome.<br>
+          &nbsp &nbsp &nbsp &nbsp &nbsp Our story began in 1971 in Seattle's Pike Place Market, where we opened our
+          first store. Since then,
+          we have grown to over 32,000 stores in 80 countries around the world. But our mission remains the same:
+          to inspire and nurture the human spirit – one person, one cup, and one neighborhood at a time.
+          <br>&nbsp &nbsp &nbsp &nbsp &nbsp We are passionate about coffee. We source our coffee beans from the finest
+          coffee farms around the world,
+          and we roast them to perfection in our own state-of-the-art roasteries. We offer a wide variety of coffee
+          drinks to choose from, including espresso-based drinks, brewed coffee, and tea.
+        </p>
+
+        <img src="images/about.jpg" alt="About" />
+      </div>
+    </section>
+
+    <section class="sec-padding" id="contact">
+      <h3 class="section-heading">CONTACT</h3>
+      <div class="sec-content-div flexible">
+        <h6>To make an order or just to know more contact us :</h6>
+        <form id="form" method="POST">
+          <input type="email" name="" id="email" placeholder="Your Contact Number " required />
+          <script>
+            function myFunction() {
+              alert("We Recorded Your Response !");
+            }
+          </script>
+          <input type="submit" class="btn" id="submit" onclick="myFunction()" value="Know More" />
+        </form>
+      </div>
+    </section>
+  </main>
+  <div class="copyright">
+    Designed & Developed By Vardhan Adheli </p>
+  </div>
+</body>
+
+</html>
